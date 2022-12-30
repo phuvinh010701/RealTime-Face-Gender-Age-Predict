@@ -20,7 +20,12 @@ python3 detect.py --source 0
 - Gender Classification: YOLOv5n-cls [YOLOv5](https://github.com/ultralytics/yolov5)
 - Age Classification: YOLOv5n-cls [YOLOv5](https://github.com/ultralytics/yolov5)
 
+### Dataset:
 
+- Gender: GenderOcclusionDta (with mask and non-mask)
+- Age: Megaage asian
+
+### Class
 - Gender: 0 - female, 1 - male
 - Age: 0 - [0-10), 1 - [10-20), 2 - [20-30), 3 - [30-40), 4 - [40-50),
 5 - [50-60), 6 - [60-70), 7 - [70-80), 8 - [80-90)
