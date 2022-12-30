@@ -154,7 +154,7 @@ if __name__ == '__main__':
     
     if opt.source == '0':
         a = detect(model_face, model_gender, model_age, device)
-        cap = cv2.VideoCapture('rtsp://vjaip001:vjaip2022@192.168.1.145:554/stream1')
+        cap = cv2.VideoCapture(0)
         i = 0
         prev_frame_time = 0
         new_frame_time = 0
